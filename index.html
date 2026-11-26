@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>防犯グッズ リンク集｜犯罪統計から選ぶ、家と家族を守る道具（DWA防災情報センター）</title>
+<meta name="description" content="警察庁の犯罪統計（侵入口・侵入手段・時間帯）をもとに、窓センサー・補助錠・センサースピーカー・防犯カメラなど防犯グッズを用途別に紹介するリンク集です。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fs:1;
+  --bg:#f7f7f5;--surface:#ffffff;--surface2:#eef0f3;--ink:#111418;--ink2:#3d434b;--line:#c9ced6;
+  --accent:#0b4f9c;--accent-ink:#ffffff;--focus:#c2410c;--warn-bg:#fff4d6;--warn-ink:#5a3b00;
+  --sea:#dce8f3;--land:#ffffff;--landline:#8f99a6;
+  --c-robbery:#0072B2;--c-injury:#B86E00;--c-murder:#C23B00;--c-theft:#00785A;--c-arson:#A8437F;--c-attempt:#3E7FB0;--c-burglary:#7A4E2D;
+  --st-done:#1a6b36;--st-part:#8a5a00;--st-open:#a3261b;
+  --shadow:0 1px 2px rgba(0,0,0,.08),0 4px 14px rgba(0,0,0,.06);
+}
+[data-theme="dark"]{
+  --bg:#111317;--surface:#1b1e24;--surface2:#262a32;--ink:#f1f3f6;--ink2:#c4cad3;--line:#4a515c;
+  --accent:#7db7ff;--accent-ink:#0b1220;--focus:#ffb070;--warn-bg:#3a2e10;--warn-ink:#ffe3a3;
+  --sea:#17222f;--land:#2b313a;--landline:#6d7785;
+  --c-robbery:#56B4E9;--c-injury:#E69F00;--c-murder:#FF7A45;--c-theft:#35C29A;--c-arson:#E58CC0;--c-attempt:#9AC7EA;--c-burglary:#D9A066;
+  --st-done:#6fd28f;--st-part:#f2c35b;--st-open:#ff8a7d;
+  --shadow:0 1px 2px rgba(0,0,0,.5);
+}
+[data-contrast="high"]{--ink2:var(--ink);--line:var(--ink);--landline:var(--ink)}
+*{box-sizing:border-box}
+html{font-size:calc(17px * var(--fs));scroll-behavior:smooth;scroll-padding-top:5.5rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"BIZ UDPGothic","Hiragino Sans","Yu Gothic UI",Meiryo,sans-serif;line-height:1.8;letter-spacing:.02em}
+a{color:var(--accent);text-underline-offset:.2em}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:.5rem;top:-4rem;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;border-radius:6px;z-index:100;font-weight:700}
+.skip:focus{top:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ===== header ===== */
+.topbar{position:sticky;top:0;z-index:50;background:var(--surface);border-bottom:2px solid var(--line);box-shadow:var(--shadow)}
+.tb-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:.5rem;padding:.45rem .75rem;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.02rem;margin-right:auto;display:flex;align-items:center;gap:.45rem;color:var(--ink);text-decoration:none;line-height:1.3}
+.brand .logo{display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-size:1rem}
+.tb-btns{display:flex;gap:.3rem;flex-wrap:wrap;align-items:center}
+.tbtn{min-height:44px;min-width:44px;display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;font:inherit;font-size:.82rem;cursor:pointer}
+.tbtn:hover{background:var(--surface2)}
+.tbtn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.tbtn .i{font-size:1.05rem;line-height:1}
+.tb-sz{display:inline-flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
+.tb-sz button{min-height:41px;min-width:40px;border:0;background:var(--surface);color:var(--ink);font:inherit;cursor:pointer;padding:0 .5rem}
+.tb-sz button+button{border-left:1.5px solid var(--line)}
+.tb-sz button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.tb-sz .lab{font-size:.75rem;padding:0 .45rem;display:flex;align-items:center;background:var(--surface2)}
+@media (max-width:760px){html{scroll-padding-top:7.5rem}.tbtn .t{display:none}.tbtn.menu .t{display:inline}.brand{font-size:.92rem;flex:1 1 0;order:0}.tbtn.menu{order:1}.tb-btns{order:2}.tb-btns{flex-basis:100%;flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:2px}.tbtn,.tb-sz{flex:0 0 auto}.tbtn{min-width:42px;padding:.2rem .45rem}.tb-sz .lab{display:none}.tb-sz button{min-width:36px}}
+
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
+.scrim.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(360px,92vw);background:var(--surface);z-index:61;transform:translateX(102%);transition:transform .25s;display:flex;flex-direction:column;border-left:2px solid var(--line);overflow-y:auto}
+.drawer.on{transform:none}
+.drawer>*{flex-shrink:0}
+.drawer[hidden]{display:flex;visibility:hidden}
+.dr-h{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;border-bottom:1.5px solid var(--line)}
+.dr-h h2{margin:0;font-size:1.05rem}
+.mi{display:flex;flex-direction:column;align-items:flex-start;width:100%;text-align:left;min-height:48px;padding:.65rem 1rem;border:0;border-bottom:1px solid var(--line);background:none;color:var(--ink);font:inherit;text-decoration:none;cursor:pointer}
+.mi:hover{background:var(--surface2)}
+.mi small{color:var(--ink2);font-size:.78rem}
+.dr-sec{padding:.6rem 1rem .2rem;font-size:.78rem;font-weight:700;color:var(--ink2);background:var(--surface2)}
+
+.toast{position:fixed;left:50%;bottom:1.2rem;transform:translate(-50%,150%);background:var(--ink);color:var(--bg);padding:.7rem 1.1rem;border-radius:10px;z-index:80;transition:transform .25s;max-width:90vw;font-weight:700}
+.toast.show{transform:translate(-50%,0)}
+.toast:empty{display:none}
+.toast.show{transform:translate(-50%,0)}
+.toast:empty{display:none}
+main{max-width:1200px;margin:0 auto;padding:1rem .9rem 3rem}
+h1{font-size:1.6rem;line-height:1.4;margin:.6rem 0 .4rem}
+h2{font-size:1.3rem;line-height:1.4;margin:0 0 .3rem;padding-left:.6rem;border-left:6px solid var(--accent)}
+h3{font-size:1.05rem;line-height:1.45;margin:0}
+.pr{display:inline-block;font-weight:700;font-size:.8rem;background:var(--warn-bg);color:var(--warn-ink);border:1.5px solid currentColor;border-radius:6px;padding:.05rem .5rem;margin-right:.4rem}
+.disc{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:.7rem 1rem;font-size:.9rem}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:1rem 1.1rem;box-shadow:var(--shadow)}
+.lead{color:var(--ink2);margin:.2rem 0 1rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0}
+.chip{display:inline-flex;align-items:center;min-height:44px;padding:.3rem .85rem;border:1.5px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.9rem}
+.chip:hover{background:var(--surface2)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem;margin:1rem 0}
+.stat{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:.7rem .9rem}
+.stat .n{font-size:1.7rem;font-weight:700;line-height:1.2;color:var(--accent)}
+.stat .l{font-size:.86rem;color:var(--ink2)}
+.top5 ol{list-style:none;margin:.5rem 0 0;padding:0;display:grid;gap:.45rem}
+.top5 a{display:flex;align-items:center;gap:.7rem;min-height:48px;padding:.4rem .7rem;border:1.5px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;background:var(--surface)}
+.top5 a:hover{background:var(--surface2)}
+.rk{display:inline-grid;place-items:center;flex:0 0 2rem;height:2rem;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700}
+.offi{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin-top:1rem;border-left:6px solid var(--st-done,#1a6b36)}
+.offi p{margin:.2rem 0 0}
+.offbtn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.4rem 1.2rem;border-radius:10px;border:2px solid var(--accent);color:var(--accent);background:var(--surface);font-weight:700;text-decoration:none}
+.offbtn:hover{background:var(--surface2)}
+.cat{margin-top:2.4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:1rem}
+.item{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:1rem 1.1rem;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+.item:target{outline:3px solid var(--focus)}
+.ih{display:flex;gap:.6rem;align-items:flex-start;margin-bottom:.5rem}
+.em{flex:0 0 2.6rem;height:2.6rem;display:grid;place-items:center;font-size:1.45rem;border-radius:10px;background:var(--surface2)}
+dl{margin:0 0 .6rem}
+dt{font-size:.8rem;font-weight:700;color:var(--ink2);margin-top:.35rem}
+dd{margin:0;font-size:.95rem}
+.warn{background:var(--warn-bg);color:var(--warn-ink);border-radius:8px;padding:.55rem .7rem;font-size:.88rem;margin-bottom:.7rem}
+.warnbox{background:var(--warn-bg);color:var(--warn-ink);border-color:currentColor;margin-bottom:1rem}
+.buy{margin-top:auto;display:flex;justify-content:center;align-items:center;min-height:48px;border-radius:10px;background:#FFD814;color:#0F1111;font-weight:700;text-decoration:none;border:1.5px solid #c9a800}
+.buy:hover{background:#F7CA00}
+[data-theme="dark"] .buy{background:#FFD814;color:#0F1111}
+.tips li{margin-bottom:.35rem}
+footer{border-top:2px solid var(--line);background:var(--surface);padding:1.4rem .9rem 2rem;font-size:.9rem}
+footer .in{max-width:1200px;margin:0 auto}
+.totop{position:fixed;right:1rem;bottom:1rem;z-index:40;min-height:48px;min-width:48px;border-radius:50%;border:2px solid var(--line);background:var(--surface);color:var(--ink);font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow)}
+@media print{.topbar,.drawer,.scrim,.totop,.chips{display:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">本文へスキップ</a>
+<header class="topbar" role="banner">
+  <div class="tb-in">
+    <a class="brand" href="#top"><span class="logo" aria-hidden="true">🛡️</span><span>防犯グッズ リンク集</span></a>
+    <div class="tb-btns" role="toolbar" aria-label="ページの操作">
+      <button class="tbtn" id="abReload" type="button"><span class="i" aria-hidden="true">🔄</span><span class="t">更新</span></button>
+      <button class="tbtn" id="abShare" type="button"><span class="i" aria-hidden="true">📤</span><span class="t">共有</span></button>
+      <button class="tbtn" id="abLink" type="button"><span class="i" aria-hidden="true">🔗</span><span class="t">リンク</span></button>
+      <button class="tbtn" id="abTheme" type="button" aria-pressed="false"><span class="i" id="thI" aria-hidden="true">🌙</span><span class="t" id="thT">ダーク</span></button>
+      <div class="tb-sz" role="group" aria-label="文字の大きさ">
+        <span class="lab" aria-hidden="true">文字</span>
+        <button type="button" data-z="s" aria-pressed="false" aria-label="文字 小">小</button>
+        <button type="button" data-z="m" aria-pressed="true" aria-label="文字 中">中</button>
+        <button type="button" data-z="l" aria-pressed="false" aria-label="文字 大">大</button>
+      </div>
+    </div>
+    <button class="tbtn menu" id="abMenu" type="button" aria-haspopup="dialog" aria-controls="drawer" aria-expanded="false"><span class="i" aria-hidden="true">☰</span><span class="t">メニュー</span></button>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drT" hidden>
+  <div class="dr-h"><h2 id="drT">メニュー</h2><button class="tbtn" id="mnuX" type="button" aria-label="メニューを閉じる"><span aria-hidden="true">✕</span><span class="t">閉じる</span></button></div>
+  <div class="dr-sec">ページ内</div>
+  <a class="mi" href="#top">🏠 トップ<small>統計で分かる狙われ方</small></a>
+  <a class="mi" href="#top5">🥇 まず揃えるならこの5つ<small>優先順位</small></a>
+  <a class="mi" href="#official">🏛️ 住まいる防犯110番（警察庁）<small>住まいの防犯対策の公式情報</small></a>
+  <div class="dr-sec">カテゴリ</div>
+  <a class="mi" href="#c-door">🚪 侵入させない（窓・ドア・鍵）<small>空き巣の侵入口は窓が最多。鍵のかけ忘れとガラス破りで約8割を占めます。</small></a><a class="mi" href="#c-voice">🔊 音・声・光で追い返す<small>「見られている」「気づかれた」と思わせるのが一番の撃退策です。</small></a><a class="mi" href="#c-cam">📹 記録する・見守る<small>映像は抑止にも、事件後の証拠にもなります。</small></a><a class="mi" href="#c-asset">🚗 車・財産を守る<small>ハンドルロック・エアタグ・金庫</small></a><a class="mi" href="#c-kids">🧒 子ども・家族・夜道<small>路上強盗の犯人は半数以上が少年。帰り道の対策も大切です。</small></a><a class="mi" href="#c-shop">🏪 店舗・事業所の対応用<small>レジや受付での強盗に備える、業務用の装備です。</small></a><a class="mi" href="#c-learn">📚 知識を身につける<small>道具より先に、逃げ方・通報の仕方を知っておくこと。</small></a><a class="mi" href="#c-legal">⚠️ 携帯・使用に法律上の注意が必要なもの<small>買う前に必ず下の注意を読んでください。</small></a>
+  <div class="dr-sec">その他</div>
+  <a class="mi" href="#tips">💡 選び方のコツ<small>買う前に確認すること</small></a>
+  <a class="mi" href="#privacy">🔒 プライバシーポリシー・広告について<small>Amazonアソシエイト</small></a>
+  <a class="mi" href="#about">👤 運営者情報<small>DWA防災情報センター</small></a>
+  <div class="dr-sec">表示</div>
+  <button class="mi" id="mContrast" type="button" aria-pressed="false">◐ ハイコントラスト<small>文字と線をはっきり表示</small></button>
+</div>
+
+<main id="main" tabindex="-1">
+<div id="top"></div>
+<p class="disc"><span class="pr">PR</span>このページはアフィリエイト広告（Amazonアソシエイト）を利用しています。Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</p>
+<h1>犯罪統計から選ぶ 防犯グッズ リンク集</h1>
+<p class="lead" style="margin-bottom:.4rem">警察庁「犯罪統計書 令和7年の犯罪」（2025年）の数字をもとに、「どこから・どうやって入られるか」に合わせて防犯グッズを用途別にまとめました。</p>
+<div class="stats" aria-label="2025年 一戸建て住宅の侵入窃盗の統計">
+  <div class="stat"><div class="n">42.2%</div><div class="l">一戸建ての侵入手段「ガラス破り」</div></div>
+  <div class="stat"><div class="n">41.5%</div><div class="l">一戸建ての侵入手段「鍵のかけ忘れ（無締り）」</div></div>
+  <div class="stat"><div class="n">31.3%</div><div class="l">一戸建ての侵入口「居室の窓」（最多）</div></div>
+  <div class="stat"><div class="n">54%</div><div class="l">路上強盗の検挙人員に占める少年の割合</div></div>
+</div>
+<nav class="chips" aria-label="カテゴリへ移動"><a class="chip" href="#c-door">🚪 侵入させない（窓・ドア・鍵）</a><a class="chip" href="#c-voice">🔊 音・声・光で追い返す</a><a class="chip" href="#c-cam">📹 記録する・見守る</a><a class="chip" href="#c-asset">🚗 車・財産を守る</a><a class="chip" href="#c-kids">🧒 子ども・家族・夜道</a><a class="chip" href="#c-shop">🏪 店舗・事業所の対応用</a><a class="chip" href="#c-learn">📚 知識を身につける</a><a class="chip" href="#c-legal">⚠️ 携帯・使用に法律上の注意が必要なもの</a></nav>
+
+<section class="card top5" id="top5" aria-labelledby="hTop">
+  <h2 id="hTop">🥇 まず揃えるならこの5つ（一戸建ての場合）</h2>
+  <p class="lead" style="margin-bottom:0">侵入の約8割は「鍵のかけ忘れ」と「ガラス破り」。まず鍵と窓、次に気づかせる・記録する道具の順です。</p>
+  <ol><li><a href="#i-roomlock"><span class="rk">1</span><span>防犯部屋ロック（補助錠）</span></a></li><li><a href="#i-glass"><span class="rk">2</span><span>窓ガラスを叩いた瞬間に鳴る窓センサー</span></a></li><li><a href="#i-taro"><span class="rk">3</span><span>録音機能付きセンサースピーカー「しゃべったろう君 IJ-TARO-01」</span></a></li><li><a href="#i-g5"><span class="rk">4</span><span>防犯カメラ Aqara G5 Pro（スポットライト・サイレン付き）</span></a></li><li><a href="#i-smartlock"><span class="rk">5</span><span>スマートロック</span></a></li></ol>
+</section>
+
+<section class="card offi" id="official" aria-labelledby="hOff">
+  <div style="flex:1 1 320px">
+    <h2 id="hOff" style="border:0;padding:0">🏛️ 住まいる防犯110番（警察庁）</h2>
+    <p>「万全ですか？住まいの防犯対策」。住宅への侵入犯罪の現状と最新の対策を、警察庁が紹介している公式サイトです。グッズを選ぶ前に、自宅の弱点の確認にどうぞ。</p>
+  </div>
+  <a class="offbtn" href="https://www.npa.go.jp/safetylife/seianki26/top.html" target="_blank" rel="noopener">警察庁のサイトを見る<span class="vh">（新しいタブで開きます）</span><span aria-hidden="true">&nbsp;↗</span></a>
+</section>
+<section class="cat" id="c-door" aria-labelledby="h-door"><h2 id="h-door">🚪 侵入させない（窓・ドア・鍵）</h2><p class="lead">空き巣の侵入口は窓が最多。鍵のかけ忘れとガラス破りで約8割を占めます。ガラス破りには防犯フィルムと窓センサー、小窓には窓格子が有効です。</p><div class="grid"><article class="item" id="i-glass" aria-labelledby="t-glass">
+  <div class="ih"><span class="em" aria-hidden="true">🪟</span><h3 id="t-glass">窓ガラスを叩いた瞬間に鳴る窓センサー</h3></div>
+  <dl><dt>こんな人に</dt><dd>一戸建て・1階に寝室や居間がある家</dd><dt>選ぶポイント</dt><dd>ガラスに貼るタイプは、割られる前の「叩く・こじる」振動で鳴るものを。窓ごとに1個、電池交換の目安も確認を。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0024Ltus" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：窓ガラスを叩いた瞬間に鳴る窓センサー（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-film" aria-labelledby="t-film">
+  <div class="ih"><span class="em" aria-hidden="true">🛡️</span><h3 id="t-film">防犯フィルム（窓ガラス用）</h3></div>
+  <dl><dt>こんな人に</dt><dd>1階の掃き出し窓・浴室やトイレの小窓など、ガラス破りが心配な家</dd><dt>選ぶポイント</dt><dd>一戸建ての侵入手段の1位はガラス破り（42.2％）。フィルムはガラスを割れにくくし、割られても穴を広げるのに時間がかかるようにします。窓の一部ではなくガラス全面に貼るのが基本で、厚手のもの、防犯性能の高い建物部品を示す「CPマーク」付きはより効果が期待できます。窓センサーと組み合わせると、時間を稼ぎつつ音で気づけます。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>網入りガラスや複層ガラスは、貼るとガラスが割れる（熱割れ）ことがあります。対応しているガラスか確認し、賃貸では管理会社に相談してから貼ってください。</div>
+  <a class="buy" href="https://link.amazon/B0gh5V6sS" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯フィルム（窓ガラス用）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-grille" aria-labelledby="t-grille">
+  <div class="ih"><span class="em" aria-hidden="true">🪟</span><h3 id="t-grille">窓格子（面格子）</h3></div>
+  <dl><dt>こんな人に</dt><dd>道路から見えにくい窓、浴室・トイレ・台所の小窓</dd><dt>選ぶポイント</dt><dd>格子は「外して入る」手口もあるため、外から取り外しにくい固定方法（ワンウェイねじなど）のものを。格子の間隔が狭く、太くて頑丈なものを選びましょう。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>寝室など避難に使う窓に付けると、火事のときに逃げられなくなるおそれがあります。避難経路になる窓は避けるか、内側から開けられるタイプを選んでください。</div>
+  <a class="buy" href="https://link.amazon/B03Zsg6ED" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：窓格子（面格子）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-roomlock" aria-labelledby="t-roomlock">
+  <div class="ih"><span class="em" aria-hidden="true">🔐</span><h3 id="t-roomlock">防犯部屋ロック（補助錠）</h3></div>
+  <dl><dt>こんな人に</dt><dd>鍵のかけ忘れが心配な家、寝室を守りたい人</dd><dt>選ぶポイント</dt><dd>窓やドアに後付けする補助錠は「1か所に2つの鍵」で侵入に時間をかけさせます。侵入に5分以上かかると、多くの侵入者は諦めるとされています。工事不要のものを選ぶと賃貸でも使えます。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B033xpCJM" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯部屋ロック（補助錠）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-smartlock" aria-labelledby="t-smartlock">
+  <div class="ih"><span class="em" aria-hidden="true">📱</span><h3 id="t-smartlock">スマートロック</h3></div>
+  <dl><dt>こんな人に</dt><dd>外出先から鍵を確認したい人、家族の帰宅を知りたい人</dd><dt>選ぶポイント</dt><dd>オートロック機能付きなら、かけ忘れ（無締り）を防げます。電池切れの通知と、物理キーでも開けられるかを確認しましょう。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B09zmCGtQ" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：スマートロック（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-voice" aria-labelledby="h-voice"><h2 id="h-voice">🔊 音・声・光で追い返す</h2><p class="lead">「見られている」「気づかれた」と思わせるのが一番の撃退策です。</p><div class="grid"><article class="item" id="i-taro" aria-labelledby="t-taro">
+  <div class="ih"><span class="em" aria-hidden="true">🗣️</span><h3 id="t-taro">録音機能付きセンサースピーカー「しゃべったろう君 IJ-TARO-01」</h3></div>
+  <dl><dt>こんな人に</dt><dd>玄関・勝手口・ベランダに声の警告を流したい人</dd><dt>選ぶポイント</dt><dd>自分や家族の声で「誰だ！録画している、通報した！」と録音すると効果的。低めの男性の声で、2〜3人分を重ねると「人が多い家」に聞こえます。屋外に置くなら防水かどうかを確認してください。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>「ぶっ殺すぞ」など脅す言葉は、配達員や近所の人に流れてトラブルになるおそれがあります。「録画中・通報した」と知らせる文言がおすすめです。</div>
+  <a class="buy" href="https://link.amazon/B07RGoScC" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：録音機能付きセンサースピーカー「しゃべったろう君 IJ-TARO-01」（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-rokuon" aria-labelledby="t-rokuon">
+  <div class="ih"><span class="em" aria-hidden="true">☎️</span><h3 id="t-rokuon">録音くん KSVC-004A（インターホン応答用の録音ボタン）</h3></div>
+  <dl><dt>こんな人に</dt><dd>一人暮らしを知られたくない人、訪問を断るのが苦手な人、高齢の親の家</dd><dt>選ぶポイント</dt><dd>家族や頼れる人の声を録音しておき、インターホンが鳴ったらボタンで応答。強盗の下見の訪問に「男性がいる家」と思わせられます。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B09HHIRqf" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：録音くん KSVC-004A（インターホン応答用の録音ボタン）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-cam" aria-labelledby="h-cam"><h2 id="h-cam">📹 記録する・見守る</h2><p class="lead">映像は抑止にも、事件後の証拠にもなります。</p><div class="grid"><article class="item" id="i-g5" aria-labelledby="t-g5">
+  <div class="ih"><span class="em" aria-hidden="true">🎥</span><h3 id="t-g5">防犯カメラ Aqara G5 Pro（スポットライト・サイレン付き）</h3></div>
+  <dl><dt>こんな人に</dt><dd>庭・駐車場・玄関まわりを見張りたい人</dd><dt>選ぶポイント</dt><dd>人を検知するとスポットライトとサイレンで威嚇できるタイプ。スマホから話しかけられる機能があると、録音の声より効果的です。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0ewmACLE" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯カメラ Aqara G5 Pro（スポットライト・サイレン付き）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-cam2" aria-labelledby="t-cam2">
+  <div class="ih"><span class="em" aria-hidden="true">📷</span><h3 id="t-cam2">防犯カメラ</h3></div>
+  <dl><dt>こんな人に</dt><dd>まず1台、玄関や駐車場に付けたい人</dd><dt>選ぶポイント</dt><dd>夜間もカラーで映る、人だけを検知して通知する、録画の保存先（SDカード・クラウド）を確認。「録画中」のステッカーも一緒に貼ると抑止になります。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0iCj2req" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯カメラ（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-asset" aria-labelledby="h-asset"><h2 id="h-asset">🚗 車・財産を守る</h2><p class="lead">車は<strong>ハンドルロック</strong>で「盗みにくい車」に見せ、<strong>エアタグ</strong>で盗まれても場所を追えるように。家の財産は金庫と囮（おとり）で被害を小さくします。自動車盗は2026年1〜10月に前年同期比で44％減りましたが、人気車種は今も狙われています。</p><div class="grid"><article class="item" id="i-handle" aria-labelledby="t-handle">
+  <div class="ih"><span class="em" aria-hidden="true">🚗</span><h3 id="t-handle">ハンドルロック</h3></div>
+  <dl><dt>こんな人に</dt><dd>人気車種（ランクル・プリウス・レクサスなど）に乗っている人</dd><dt>選ぶポイント</dt><dd>見た目で「盗みにくい車」と分かるのが最大の効果。CANインベーダーなど電子的な手口は防げないため、タイヤロックや盗難防止装置と組み合わせると安心です。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B09tDAmV7" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：ハンドルロック（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-airtag" aria-labelledby="t-airtag">
+  <div class="ih"><span class="em" aria-hidden="true">📍</span><h3 id="t-airtag">AirTag（エアタグ）</h3></div>
+  <dl><dt>こんな人に</dt><dd>車・自転車・バッグの場所を追跡したい人</dd><dt>選ぶポイント</dt><dd>盗難車の発見に役立つことがあります。見つけても自分で取り返しに行かず、警察に場所を伝えてください。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>他人の持ち物に無断で付けて位置を追うのは、ストーカー規制法などで禁止されています。自分の物にだけ使ってください。</div>
+  <a class="buy" href="https://link.amazon/B0jdRHtqZ" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：AirTag（エアタグ）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-safe" aria-labelledby="t-safe">
+  <div class="ih"><span class="em" aria-hidden="true">🗄️</span><h3 id="t-safe">金庫</h3></div>
+  <dl><dt>こんな人に</dt><dd>現金・貴金属・通帳を家に置いている人</dd><dt>選ぶポイント</dt><dd>持ち運ばれない重さか、床や棚に固定できるものを。強盗は金庫の場所を聞き出そうとするので、まとまった現金は家に置かないのが一番です。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B01gLZ3Qq" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：金庫（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-gold" aria-labelledby="t-gold">
+  <div class="ih"><span class="em" aria-hidden="true">🥇</span><h3 id="t-gold">レプリカGOLD（金塊のレプリカ）</h3></div>
+  <dl><dt>こんな人に</dt><dd>金庫や棚に囮（おとり）を置きたい人</dd><dt>選ぶポイント</dt><dd>本物と別の場所に置く囮として。トクリュウ型の強盗は金塊・現金を狙うため、目立つ場所の囮で時間を稼ぐ考え方です。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>売買や支払いで本物と偽って渡すと詐欺になります。囮・ディスプレイ用途に限ってください。</div>
+  <a class="buy" href="https://link.amazon/B0fiBYDni" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：レプリカGOLD（金塊のレプリカ）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-bill" aria-labelledby="t-bill">
+  <div class="ih"><span class="em" aria-hidden="true">💴</span><h3 id="t-bill">レプリカ札（おもちゃの紙幣）</h3></div>
+  <dl><dt>こんな人に</dt><dd>囮の財布・囮の金庫を作りたい人</dd><dt>選ぶポイント</dt><dd>「見本」「おもちゃ」などの表示がはっきりしたものを選んでください。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>本物の紙幣と紛らわしいものを作ったり使ったりすると、通貨偽造や紙幣類似証券取締法の罪に問われるおそれがあります。支払いには絶対に使わないでください。</div>
+  <a class="buy" href="https://link.amazon/B030rhmBt" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：レプリカ札（おもちゃの紙幣）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-kids" aria-labelledby="h-kids"><h2 id="h-kids">🧒 子ども・家族・夜道</h2><p class="lead">路上強盗の犯人は半数以上が少年。帰り道の対策も大切です。</p><div class="grid"><article class="item" id="i-gps" aria-labelledby="t-gps">
+  <div class="ih"><span class="em" aria-hidden="true">🧭</span><h3 id="t-gps">子ども用GPS</h3></div>
+  <dl><dt>こんな人に</dt><dd>通学・塾帰りの子ども、高齢の家族</dd><dt>選ぶポイント</dt><dd>月額料金の有無、電池の持ち、通知の仕方（エリアを出入りしたら知らせる等）を比べて選びましょう。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B07v8SSHL" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：子ども用GPS（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-buzzer" aria-labelledby="t-buzzer">
+  <div class="ih"><span class="em" aria-hidden="true">📢</span><h3 id="t-buzzer">防犯ブザー</h3></div>
+  <dl><dt>こんな人に</dt><dd>子ども・学生・夜道を歩く人</dd><dt>選ぶポイント</dt><dd>ランドセルやバッグの「すぐ手が届く位置」に。月に1回は鳴らして電池を確認しましょう。ライト付きなら夜道で足元も照らせます。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0cizoDd6" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯ブザー（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-pole" aria-labelledby="t-pole">
+  <div class="ih"><span class="em" aria-hidden="true">🥾</span><h3 id="t-pole">多機能トレッキングポール（笛・火打石・コンパス付き）</h3></div>
+  <dl><dt>こんな人に</dt><dd>登山・ハイキング、防災用の持ち出し袋に</dd><dt>選ぶポイント</dt><dd>本来は登山・防災用品です。笛は遭難や災害時に居場所を知らせるのに役立ちます。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0hsUD65c" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：多機能トレッキングポール（笛・火打石・コンパス付き）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-shop" aria-labelledby="h-shop"><h2 id="h-shop">🏪 店舗・事業所の対応用</h2><p class="lead">レジや受付での強盗に備える、業務用の装備です。</p><div class="grid"><article class="item" id="i-sasumata" aria-labelledby="t-sasumata">
+  <div class="ih"><span class="em" aria-hidden="true">🔱</span><h3 id="t-sasumata">警報付きさすまた</h3></div>
+  <dl><dt>こんな人に</dt><dd>店舗・事務所・学校・介護施設</dd><dt>選ぶポイント</dt><dd>さすまたは相手を取り押さえる道具ではなく、距離を取って逃げる時間を稼ぐ道具です。複数人で使う訓練をしておきましょう。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0eQyWKeT" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：警報付きさすまた（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-colorball" aria-labelledby="t-colorball">
+  <div class="ih"><span class="em" aria-hidden="true">🎨</span><h3 id="t-colorball">防犯カラーボール</h3></div>
+  <dl><dt>こんな人に</dt><dd>コンビニ・ガソリンスタンドなど現金を扱う店</dd><dt>選ぶポイント</dt><dd>逃げる犯人や車に投げて目印を付けるもの。店員が追いかけるためではなく、警察が見つけやすくするための道具です。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0c7jyRTs" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯カラーボール（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-vest" aria-labelledby="t-vest">
+  <div class="ih"><span class="em" aria-hidden="true">🦺</span><h3 id="t-vest">防刃ベスト</h3></div>
+  <dl><dt>こんな人に</dt><dd>警備・夜間の受付・現金を扱う業務</dd><dt>選ぶポイント</dt><dd>防刃（刺す・切る）と防弾は別物です。サイズが合っていないと効果が落ちるため、着たまま動けるかを確認しましょう。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B08zbPJBu" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防刃ベスト（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-gloves" aria-labelledby="t-gloves">
+  <div class="ih"><span class="em" aria-hidden="true">🧤</span><h3 id="t-gloves">防刃手袋</h3></div>
+  <dl><dt>こんな人に</dt><dd>刃物を扱う作業、さすまたと一緒に使う装備として</dd><dt>選ぶポイント</dt><dd>切創防止レベル（EN388など）の表示を確認。日常の作業用にも使えます。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B06e0ZVlE" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防刃手袋（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-helmet" aria-labelledby="t-helmet">
+  <div class="ih"><span class="em" aria-hidden="true">⛑️</span><h3 id="t-helmet">ヘルメット（アーミーヘルメット）</h3></div>
+  <dl><dt>こんな人に</dt><dd>店舗の非常用装備、防災用</dd><dt>選ぶポイント</dt><dd>強盗はバールなどで殴ってくることがあります。防災用ヘルメットと兼ねて、すぐ取れる場所に。安全基準（国家検定など）の表示があるものがより安心です。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0bmvvFFt" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：ヘルメット（アーミーヘルメット）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-learn" aria-labelledby="h-learn"><h2 id="h-learn">📚 知識を身につける</h2><p class="lead">道具より先に、逃げ方・通報の仕方を知っておくこと。</p><div class="grid"><article class="item" id="i-manual" aria-labelledby="t-manual">
+  <div class="ih"><span class="em" aria-hidden="true">📖</span><h3 id="t-manual">護身マニュアル（書籍）</h3></div>
+  <dl><dt>こんな人に</dt><dd>まず知識から備えたい人</dd><dt>選ぶポイント</dt><dd>護身の基本は「戦う」ではなく「逃げる・叫ぶ・通報する」。家族で読んで、逃げ道や合図を決めておきましょう。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B08FqlPkT" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：護身マニュアル（書籍）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-taiho" aria-labelledby="t-taiho">
+  <div class="ih"><span class="em" aria-hidden="true">🥋</span><h3 id="t-taiho">逮捕術（書籍）</h3></div>
+  <dl><dt>こんな人に</dt><dd>警備・店舗の責任者、武道経験者</dd><dt>選ぶポイント</dt><dd>相手を制圧する技術は訓練なしには使えません。読むだけで実践せず、身の安全を最優先に。</dd></dl>
+  
+  <a class="buy" href="https://link.amazon/B0iRWyHJc" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：逮捕術（書籍）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section><section class="cat" id="c-legal" aria-labelledby="h-legal"><h2 id="h-legal">⚠️ 携帯・使用に法律上の注意が必要なもの</h2><p class="lead">買う前に必ず下の注意を読んでください。</p><div class="card warnbox"><p><strong>このコーナーの商品は、持ち歩いたり人に向けて使ったりすると、法律違反になる場合があります。</strong>防犯の基本は「戦う」ことではなく、侵入させない・気づかせる・逃げて通報することです。護身用の武器を持ち歩くより、防犯ブザーと110番の方が確実にあなたを守ります。</p><p style="margin-bottom:0">※ 法律の説明は一般的な内容です。具体的な判断は警察や弁護士にご相談ください。</p></div><div class="grid"><article class="item" id="i-spray" aria-labelledby="t-spray">
+  <div class="ih"><span class="em" aria-hidden="true">🌶️</span><h3 id="t-spray">防犯スプレー（催涙スプレー）</h3></div>
+  <dl><dt>こんな人に</dt><dd>家に置いて非常時に使う人</dd><dt>選ぶポイント</dt><dd>家に置いておく分には問題ありません。風向きで自分にかかることがあるので、使い方を確認しておきましょう。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>正当な理由なく隠して持ち歩くと、軽犯罪法違反に問われることがあります。護身目的での携帯が「正当な理由」と認められた判例もありますが、状況次第です。人に向けて使えば、正当防衛と認められない限り傷害罪などに問われます。</div>
+  <a class="buy" href="https://link.amazon/B0hEU9BwN" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：防犯スプレー（催涙スプレー）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-armor" aria-labelledby="t-armor">
+  <div class="ih"><span class="em" aria-hidden="true">🔑</span><h3 id="t-armor">アーマージャパン 催涙スプレー キーリングミニ（ブラック）</h3></div>
+  <dl><dt>こんな人に</dt><dd>鍵と一緒に持っておきたい人</dd><dt>選ぶポイント</dt><dd>キーリング型は取り出しやすい反面、持ち歩く道具になります。上の防犯スプレーと同じ注意が当てはまります。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>正当な理由なく隠して携帯すると軽犯罪法違反に問われることがあります。子どもの手の届かない所で保管してください。</div>
+  <a class="buy" href="https://link.amazon/B0eb0utGy" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：アーマージャパン 催涙スプレー キーリングミニ（ブラック）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-airgun" aria-labelledby="t-airgun">
+  <div class="ih"><span class="em" aria-hidden="true">🎯</span><h3 id="t-airgun">18禁エアガン</h3></div>
+  <dl><dt>こんな人に</dt><dd>18歳以上のサバイバルゲーム・趣味用</dd><dt>選ぶポイント</dt><dd>護身・防犯用の道具ではありません。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>18歳未満への販売・譲渡は禁止されています。人に向けて撃てば暴行罪や傷害罪に問われ、持ち歩きや見せびらかしも通報の対象になります。防犯目的では使わないでください。</div>
+  <a class="buy" href="https://link.amazon/B01tYptr6" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：18禁エアガン（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article><article class="item" id="i-knife" aria-labelledby="t-knife">
+  <div class="ih"><span class="em" aria-hidden="true">🔪</span><h3 id="t-knife">ナイフ（アウトドア用）</h3></div>
+  <dl><dt>こんな人に</dt><dd>キャンプ・アウトドアの作業用</dd><dt>選ぶポイント</dt><dd>護身用として持ち歩くことはできません。</dd></dl>
+  <div class="warn" role="note"><strong>注意：</strong>業務その他正当な理由なく刃体6cmを超える刃物を持ち歩くと銃刀法違反、6cm以下でも隠して持ち歩くと軽犯罪法違反に問われるおそれがあります。「護身用」は正当な理由になりません。</div>
+  <a class="buy" href="https://link.amazon/B07I93QCn" target="_blank" rel="sponsored noopener noreferrer">Amazonで見る<span class="vh">：ナイフ（アウトドア用）（新しいタブで開きます）</span><span aria-hidden="true"> ↗</span></a>
+</article></div></section>
+
+<section class="cat card" id="tips" aria-labelledby="hTips">
+  <h2 id="hTips">💡 選び方のコツ</h2>
+  <ul class="tips">
+    <li><strong>道具より先に「鍵をかける」。</strong>一戸建ての侵入の41.5％は鍵のかけ忘れです。ゴミ出しなど短い外出でも施錠を。</li>
+    <li><strong>窓は「1か所に2つの鍵」。</strong>補助錠と窓センサーを組み合わせると、侵入に時間がかかり、音でも気づけます。</li>
+    <li><strong>「見られている」と思わせる。</strong>センサーライト・カメラ・声の警告は、侵入をあきらめさせる効果があります。</li>
+    <li><strong>戦う道具より逃げる準備。</strong>強盗に出くわしたら抵抗せず、安全な場所に逃げて110番。寝室に鍵とスマホを置いておくと安心です。</li>
+    <li><strong>公式情報も確認。</strong>警察庁の「<a href="https://www.npa.go.jp/safetylife/seianki26/top.html" target="_blank" rel="noopener">住まいる防犯110番</a>」に、住宅への侵入犯罪の現状と対策がまとめられています。</li>
+    <li><strong>電池・通知を定期点検。</strong>センサーやブザーは月に1回、鳴るかどうか確認しましょう。</li>
+  </ul>
+  <p style="font-size:.88rem;color:var(--ink2);margin-bottom:0">統計の出典：警察庁「犯罪統計書 令和7年の犯罪」（<a href="https://www.npa.go.jp/toukei/soubunkan/R07/R07hanzaitoukei.htm">警察庁</a>）。商品の仕様・価格・在庫はAmazonの商品ページでご確認ください。</p>
+</section>
+
+<section class="cat card" id="privacy" aria-labelledby="hPriv">
+  <h2 id="hPriv">🔒 プライバシーポリシー・広告について</h2>
+  <p>当サイトは、Amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。</p>
+  <p>Amazonのリンクから商品ページへ移動すると、Amazonがクッキー（Cookie）を使って紹介元を記録することがあります。当サイト自体は、氏名やメールアドレスなどの個人情報を収集していません。表示設定（文字の大きさ・ダーク表示）は、お使いのブラウザ内にのみ保存されます。</p>
+  <p style="margin-bottom:0">掲載している商品の説明は一般的な選び方の目安で、効果や安全を保証するものではありません。法律についての記載は一般的な内容です。</p>
+</section>
+</main>
+
+<footer id="about">
+  <div class="in">
+    <p><strong>運営者</strong>：古谷浩二（DWA防災情報センター）<br>
+    <strong>連絡先</strong>：<a href="mailto:dwa8791@bousai0111.info">dwa8791@bousai0111.info</a><br>
+    <strong>note</strong>：<a href="https://lit.link/8791-0111" target="_blank" rel="noopener">https://lit.link/8791-0111</a></p>
+    <p style="margin-bottom:0;color:var(--ink2)">© DWA防災情報センター　｜　<span class="pr">PR</span>Amazonアソシエイトのリンクを含みます</p>
+  </div>
+</footer>
+<button class="totop" id="totop" type="button" aria-label="ページの先頭へ戻る">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+"use strict";
+var $=function(id){return document.getElementById(id)},root=document.documentElement;
+function gs(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function ps(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+var tt;function toast(m){var t=$("toast");t.textContent=m;t.classList.add("show");clearTimeout(tt);tt=setTimeout(function(){t.classList.remove("show")},2200)}
+/* theme */
+var th=gs("goods-theme");if(th)root.setAttribute("data-theme",th);
+function isDark(){var t=root.getAttribute("data-theme");return t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches)}
+function thLabel(){var d=isDark();$("thI").textContent=d?"☀️":"🌙";$("thT").textContent=d?"ライト":"ダーク";$("abTheme").setAttribute("aria-label",d?"ライト表示に切り替え":"ダーク表示に切り替え");$("abTheme").setAttribute("aria-pressed",d?"true":"false")}
+thLabel();
+$("abTheme").onclick=function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);ps("goods-theme",n);thLabel();toast(n==="dark"?"ダーク表示にしました":"ライト表示にしました")};
+/* font size */
+var Z={s:.88,m:1,l:1.18};
+function setZ(z){root.style.setProperty("--fs",Z[z]);document.querySelectorAll(".tb-sz button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.z===z?"true":"false")});ps("goods-fs",z)}
+setZ(gs("goods-fs")||"m");
+document.querySelectorAll(".tb-sz button").forEach(function(b){b.onclick=function(){setZ(b.dataset.z);toast("文字の大きさ："+b.textContent)}});
+/* contrast */
+function setC(on){if(on)root.setAttribute("data-contrast","high");else root.removeAttribute("data-contrast");$("mContrast").setAttribute("aria-pressed",on?"true":"false");ps("goods-ct",on?"1":"0")}
+setC(gs("goods-ct")==="1");
+$("mContrast").onclick=function(){var on=root.getAttribute("data-contrast")!=="high";setC(on);toast(on?"ハイコントラストをオンにしました":"ハイコントラストをオフにしました")};
+/* actions */
+$("abReload").onclick=function(){location.reload()};
+$("abLink").onclick=function(){var u=location.href.split("#")[0];if(navigator.clipboard)navigator.clipboard.writeText(u).then(function(){toast("ページのURLをコピーしました")},function(){toast("コピーできませんでした")});else toast("コピーできませんでした")};
+$("abShare").onclick=function(){var d={title:document.title,url:location.href.split("#")[0]};if(navigator.share)navigator.share(d).catch(function(){});else $("abLink").onclick()};
+/* drawer */
+var dr=$("drawer"),sc=$("scrim"),mb=$("abMenu"),last;
+function focusables(){return dr.querySelectorAll("a[href],button")}
+function openD(){last=document.activeElement;dr.hidden=false;requestAnimationFrame(function(){dr.classList.add("on");sc.classList.add("on")});mb.setAttribute("aria-expanded","true");setTimeout(function(){$("mnuX").focus()},50)}
+function closeD(){dr.classList.remove("on");sc.classList.remove("on");mb.setAttribute("aria-expanded","false");setTimeout(function(){dr.hidden=true},250);if(last)last.focus()}
+mb.onclick=openD;$("mnuX").onclick=closeD;sc.onclick=closeD;
+dr.addEventListener("keydown",function(e){if(e.key==="Escape"){closeD();return}if(e.key==="Tab"){var f=focusables(),a=f[0],z=f[f.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}});
+dr.querySelectorAll("a.mi").forEach(function(a){a.addEventListener("click",function(){closeD()})});
+/* to top */
+$("totop").onclick=function(){scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});$("main").focus({preventScroll:true})};
+})();
+</script>
+</body>
+</html>
